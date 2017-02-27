@@ -1,0 +1,58 @@
+# Created by Topology-Converter v4.6.0
+#    https://github.com/cumulusnetworks/topology_converter
+#    using topology data from: 3tier.dot
+
+
+
+
+[oob-switch]
+oob-mgmt-switch ansible_user=cumulus
+
+
+
+
+
+
+
+[leaf]
+rtr01 ansible_host=192.168.200.101 ansible_user=cumulus
+rtr02 ansible_host=192.168.200.102 ansible_user=cumulus
+leaf06 ansible_host=192.168.200.119 ansible_user=cumulus
+leaf07 ansible_host=192.168.200.120 ansible_user=cumulus
+leaf04 ansible_host=192.168.200.117 ansible_user=cumulus
+leaf05 ansible_host=192.168.200.118 ansible_user=cumulus
+leaf02 ansible_host=192.168.200.115 ansible_user=cumulus
+leaf03 ansible_host=192.168.200.116 ansible_user=cumulus
+leaf01 ansible_host=192.168.200.114 ansible_user=cumulus
+leaf08 ansible_host=192.168.200.121 ansible_user=cumulus
+exit02 ansible_host=192.168.200.104 ansible_user=cumulus
+exit01 ansible_host=192.168.200.103 ansible_user=cumulus
+
+
+
+[spine]
+spine05 ansible_host=192.168.200.112 ansible_user=cumulus
+spine02 ansible_host=192.168.200.109 ansible_user=cumulus
+spine03 ansible_host=192.168.200.110 ansible_user=cumulus
+spine01 ansible_host=192.168.200.108 ansible_user=cumulus
+spine04 ansible_host=192.168.200.111 ansible_user=cumulus
+tier02 ansible_host=192.168.200.106 ansible_user=cumulus
+tier03 ansible_host=192.168.200.107 ansible_user=cumulus
+tier01 ansible_host=192.168.200.105 ansible_user=cumulus
+spine06 ansible_host=192.168.200.113 ansible_user=cumulus
+
+
+
+
+
+[host]
+server08 ansible_host=192.168.200.131 ansible_user=cumulus
+server01 ansible_host=192.168.200.124 ansible_user=cumulus
+server03 ansible_host=192.168.200.126 ansible_user=cumulus
+server02 ansible_host=192.168.200.125 ansible_user=cumulus
+server05 ansible_host=192.168.200.128 ansible_user=cumulus
+server04 ansible_host=192.168.200.127 ansible_user=cumulus
+server07 ansible_host=192.168.200.130 ansible_user=cumulus
+server06 ansible_host=192.168.200.129 ansible_user=cumulus
+vip01 ansible_host=192.168.200.122 ansible_user=cumulus
+vip02 ansible_host=192.168.200.123 ansible_user=cumulus
