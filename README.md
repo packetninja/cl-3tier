@@ -4,4 +4,4 @@ This is a large topology built with Cumulus VX using the Topology Generator (htt
 
 Since the topology consists out of a large number of nodes, it requires 32G of memory and will not run on a local laptop. Although you could use it when only starting part of the topology (e.g one pod).
 
-![Diagram-3tier](3tier.jpg)
+![Diagram-3tier](3tier.png)
