@@ -1748,7 +1748,7 @@ end
             :libvirt__tunnel_local_ip => '127.0.0.1',
             :libvirt__tunnel_local_port => '40024',
             :libvirt__tunnel_ip => '127.0.0.1',
-            :libvirt__tunnel_port => '41024',
+            :libvirt__tunnel_port => '42048',
             :libvirt__iface_name => 'swp7',
             auto_config: false
       # link for swp8 --> exit02:swp3
@@ -4100,7 +4100,7 @@ end
             :mac => "443839000030",
             :libvirt__tunnel_type => 'udp',
             :libvirt__tunnel_local_ip => '127.0.0.1',
-            :libvirt__tunnel_local_port => '41024',
+            :libvirt__tunnel_local_port => '42048',
             :libvirt__tunnel_ip => '127.0.0.1',
             :libvirt__tunnel_port => '40024',
             :libvirt__iface_name => 'swp3',
@@ -4221,7 +4221,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4314,7 +4314,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4407,7 +4407,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4500,7 +4500,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4593,7 +4593,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4686,7 +4686,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4779,7 +4779,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4872,7 +4872,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -4965,7 +4965,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
@@ -5058,7 +5058,7 @@ end
 
     device.vm.provider :libvirt do |v|
       v.nic_model_type = 'e1000' 
-      v.memory = 2048
+      v.memory = 1024
     end
     #   see note here: https://github.com/pradels/vagrant-libvirt#synced-folders
     device.vm.synced_folder ".", "/vagrant", disabled: true
